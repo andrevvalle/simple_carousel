@@ -14,9 +14,9 @@
 
 3. Your application will be running on http://localhost:9000/www
 
-4. make your changes in **_development** folder:
+4. Make your changes in **_development** folder:
 
-5. to test your changes need to build the project:
+5. To test your changes need to build the project:
 
   ```sh
   $ harp compile _development www

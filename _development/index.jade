@@ -1,1 +1,26 @@
-h1 Welcome to Simple Carousel.
+include markup/public.jade
+block body
+	body.test
+
+block content
+	h1="Simple Carousel"
+
+	.container
+		.slide-container
+
+			.slide-list--container
+				ul.slide-list
+					li.slide-item
+						img(src="assets/images/slide2.jpg")
+					li.slide-item
+						img(src="assets/images/slide2.jpg")
+					li.slide-item
+						img(src="assets/images/slide2.jpg")
+			.prev
+				span="<"
+			.next
+				span=">"
+
+			nav(class="navigation-slide" role="navigation")
+
+include markup/_includes/_scripts

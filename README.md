@@ -4,7 +4,7 @@
 
 ***Running the application:***
 
-1. Install [HarpJs]http://harpjs.com/).
+1. Install [HarpJs](http://harpjs.com/).
 
 2. Init Harp server:
 
